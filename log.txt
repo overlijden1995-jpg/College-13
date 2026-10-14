@@ -1,0 +1,58 @@
+2026-10-14 00:57:15 UTC
+Windows-11-10.0.26300-SP0
+Ren'Py 8.5.3.26051504
+
+College Traits
+0.13
+Built at 2026-10-12 14:58:31 UTC
+
+Early init took 39 ms
+Loading error handling took 104 ms
+Loading script took 1325 ms
+Loading save slot metadata took 48 ms
+Loading persistent took 1 ms
+Set script version to: (8, 4, 1)
+[MENU_SCALE] applied small (persistent=small, mobile=False, rebuild=False)
+[DEBUG] WearPreset: gid=gwen preset=casual apply_now=False
+[DEBUG] WearPreset: gid=rogue preset=casual apply_now=False
+[DEBUG] WearPreset: gid=ntw preset=casual apply_now=False
+[DEBUG] WearPreset: gid=tenny preset=casual apply_now=False
+[DEBUG] WearPreset: gid=shion preset=casual apply_now=False
+
+Full traceback:
+  File "game/scripts/Chat/Talk.rpy", line 8, in script
+  File "renpy/ast.py", line 1193, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1276, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/scripts/Chat/Talk.rpy", line 53, in <module>
+AttributeError: module 'renpy.game' has no attribute 'RestartContext'
+
+While running game code:
+  File "game/scripts/Chat/Talk.rpy", line 8, in script
+  File "game/scripts/Chat/Talk.rpy", line 53, in <module>
+AttributeError: module 'renpy.game' has no attribute 'RestartContext'
+[ROD'S CHOICE] 26 seeds, 2 need the pregnancy system and 1 the stepmother route (drawn only when the player turns it on), 0 achievement(s) no seed targets: none
+[SAVE] init baseline captured for 5 girl(s)
+[PREG_ART] 242 layer(s) registered for gwen, ntw, rogue, shion, tenny, 0 problem(s)
+Running init code took 541 ms
+Loading analysis data took 21 ms
+Analyze and compile ATL took 29 ms
+Reloading save slot metadata took 6 ms
+Dump and make backups took 0 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 71 ms
+DPI scale factor: 3.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 123 ms
+Init translation took 1 ms
+Cleaning stores took 1 ms
+Load screen analysis took 57 ms
+Analyze screens took 2 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
